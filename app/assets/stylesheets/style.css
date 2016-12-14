@@ -1,9 +1,21 @@
+body {
+    background-color: #f4f4f4;
+}
+
+#header {
+  background-color: #595e6f;
+}
+
 #navbar-top {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #595e6f;
+    z-index: 10;
+    font-size: small;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 #navbar-top li {
@@ -25,4 +37,25 @@
 
 #navbar-top .active {
     background-color: #f56e4e;
+}
+
+#main {
+    text-align: center;
+}
+
+#main h1{
+    -webkit-margin-before: 0.0em;
+    -webkit-margin-after: 0.0em;
+}
+
+#main p{
+    -webkit-margin-before: 0.0em;
+    -webkit-margin-after: 0.0em;
+}
+
+.flex-center-vertically {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
 }
