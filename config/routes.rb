@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   get 'home/index'
   root 'home#index'
-
+  
+  get '/recommend'=>'home#recommend'
+  get '/registration'=>'home#registration'
+  get '/login'=>'home#login'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

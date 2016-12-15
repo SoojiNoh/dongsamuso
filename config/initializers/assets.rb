@@ -11,3 +11,5 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 Rails.application.config.assets.precompile += %w( style.css )
 Rails.application.config.assets.precompile += %w( marketing.css )
+Rails.application.config.assets.precompile += %w( main.css )
+Rails.application.config.assets.precompile += %w( registration.css )
