@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/recommend'=>'home#recommend'
   get '/registration'=>'home#registration'
   get '/login'=>'home#login'
+  get '/replica'=>'home#replica'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
