@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  
   <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/pure-min.css">
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
   <link rel="stylesheet" href="<%= asset_path "main.css" %>" type="text/css" rel="stylesheet" media="screen,projection" data-turbolinks-track="reload">
@@ -25,8 +26,12 @@
 </div>
 
 <body>
-<%=yield%>
+    <%=yield%>
 </body>
 
 
+<div class="footer"><p>email name@company.com | phone: 123.456.7890<br>12345 Street Name City.ST 1234<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div>
+
+
 </html>
+

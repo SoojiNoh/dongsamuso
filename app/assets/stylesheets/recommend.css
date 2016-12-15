@@ -8,15 +8,22 @@
     text-size: 130%;
 }
 
+.dongarilist {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 div.dongariimg {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 48%;
+    width: 30%;
 }
 
 div.dongariimg:hover {
-    border: 1px solid #777;
+    border: 1px solid #f56e4e;
 }
 
 div.dongariimg img {
@@ -26,5 +33,6 @@ div.dongariimg img {
 
 div.desc {
     padding: 15px;
-    text-align: center;
+    text-align: left;
 }
+
