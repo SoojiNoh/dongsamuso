@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'home/index'
   root 'home#index'
   
+  get '/slider' => 'home#slider'
   get '/recommend'=>'home#recommend'
   get '/registration'=>'home#registration'
   get '/onepage' => 'home#onepage'

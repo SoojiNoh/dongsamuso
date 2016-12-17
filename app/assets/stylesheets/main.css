@@ -127,8 +127,30 @@ a.pure-button-primary {
     border: none;
     color: #f56e4e;
 }
+#slidertoggle {
+  display: none; /* Hide the input */
+}
+
+.mainslider {
+    position :relative;
+    -webkit-animation-timing-function: ease; /* Safari 4.0 - 8.0 */
+    animation: mainslidermoveup 5s;
+    top: 0px;
+}
 
 
+
+
+@-webkit-keyframes mainslidermoveup {
+    from {top: 500px;}
+    to {top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mainslidermoveup {
+    from {top: 500px;}
+    to {top: 0px;}
+}
 /*
  * -- SPLASH STYLES --
  * This is the blue top section that appears on the page.
